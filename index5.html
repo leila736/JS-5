@@ -13,6 +13,21 @@
   <div id="output" style="margin-top:20px; font-weight: bold;"></div>
 
 
+  <script>
+
+
+    // دسترسی به المنت‌ها
+    const nameInput = document.getElementById("nameInput");
+    const changeTextBtn = document.getElementById("changeTextBtn");
+    const outputDiv = document.getElementById("output");
+    
+    // : کلیک
+    changeTextBtn.addEventListener("click", function() {
+      const name = nameInput.value; // گرفتن مقدار از input
+      outputDiv.innerText = "سلام " + name + " عزیز! خوش اومدی 😊";
+    });
+    
+      </script>
 
 </body>
 </html>
